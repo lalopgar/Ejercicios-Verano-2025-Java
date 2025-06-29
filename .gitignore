@@ -1,0 +1,49 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+target/
+
+# Build tools
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven
+/logs/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse (por si colaboras con alguien que usa Eclipse)
+.project
+.classpath
+.settings/
+
+# VS Code (si alguien usa esta alternativa)
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.bin
+*.o
+*.a
