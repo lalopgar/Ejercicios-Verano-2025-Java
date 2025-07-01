@@ -7,5 +7,6 @@ public class Ejercicio3 {
         for (int i=1; i<=100;i++){
             acumulador = acumulador + i;
         }
+        System.out.println("La suma de todos los números es: " + acumulador);
     }
 }
