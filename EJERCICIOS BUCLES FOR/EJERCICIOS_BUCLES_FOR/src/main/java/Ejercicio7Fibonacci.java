@@ -1,6 +1,6 @@
 //Mostrar los primeros 10 números de Fibonacci
 
-public class Ejercicio7 {
+public class Ejercicio7Fibonacci {
     public static void main(String[] args) {
 
         int a = 0; //primer nº de la secuencia
