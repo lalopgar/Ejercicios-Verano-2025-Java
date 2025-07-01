@@ -10,6 +10,7 @@ public class Ejercicio7 {
 
             System.out.println(a); //imprime 0 en la primera iteracion, 1 en la segunda y asi
             int siguienteNumero = a+b; //0+1=1  siguienteNumero vale 1 ahora
+            a=b; //ahora a=1 pq arriba la variable b=1
 
 
         }
