@@ -8,6 +8,8 @@ public class Ejercicio7 {
 
         for (int i=1;i<=10;i++){
 
+            System.out.println(a); //imprime 0 en la primera iteracion, 1 en la segunda y asi
+
         }
     }
 }
