@@ -6,6 +6,8 @@ public class Ejercicio7 {
         int a = 0; //primer nº de la secuencia
         int b = 1; //segundo nº de la secuencia
 
+        for (int i=1;i<=10;i++){
 
+        }
     }
 }
