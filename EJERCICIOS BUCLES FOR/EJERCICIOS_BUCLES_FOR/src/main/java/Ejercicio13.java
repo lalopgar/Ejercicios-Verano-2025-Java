@@ -8,7 +8,7 @@ public class Ejercicio13 {
             if (i%2==0){
                 acumulador = acumulador + i;
             }
-
         }
+        System.out.println(acumulador);
     }
 }
