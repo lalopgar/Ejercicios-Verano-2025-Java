@@ -5,7 +5,7 @@ public class Ejercicio21 {
 
         int acumulador = 0;
         for (int i=1;i<=50;i++){
-
+            acumulador = acumulador+i;
         }
     }
 }
