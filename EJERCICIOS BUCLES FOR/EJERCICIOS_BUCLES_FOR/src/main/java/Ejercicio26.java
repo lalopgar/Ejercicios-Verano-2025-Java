@@ -8,5 +8,9 @@ public class Ejercicio26 {
 
         System.out.println("Introduce un número: ");
         int num = teclado.nextInt();
+
+        for (int i=1;i<=10;i++){
+            System.out.println(num + " x " + i + " = " + (num*i));
+        }
     }
 }
