@@ -7,5 +7,6 @@ public class Ejercicio21 {
         for (int i=1;i<=50;i++){
             acumulador = acumulador+i;
         }
+        System.out.println(acumulador);
     }
 }
