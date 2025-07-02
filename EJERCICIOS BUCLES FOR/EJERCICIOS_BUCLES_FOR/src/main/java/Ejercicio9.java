@@ -6,7 +6,9 @@ public class Ejercicio9 {
         for (int i=1;i<=5;i++){ //filas
             for (int j=1;j<=i;j++){  //columnas
 
+                System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
