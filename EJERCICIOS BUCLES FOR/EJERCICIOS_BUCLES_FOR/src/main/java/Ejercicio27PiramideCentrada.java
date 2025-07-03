@@ -9,6 +9,9 @@ public class Ejercicio27PiramideCentrada {
             for (int j=0;j<alturaPiramide -i -1;j++){ //alturaPiramide-i-1 formula para calcular espacios
                 System.out.println(" "); //imprimo espacios
             }
+            for (int k=0;k<2*i-1;k++){ // 2 * i -1 formula de asteriscos que se imprimen por piso. 2 pq cada piso q baja se añaden 2 a cada lado de los q habia en el centro
+
+            }
         }
     }
 }
