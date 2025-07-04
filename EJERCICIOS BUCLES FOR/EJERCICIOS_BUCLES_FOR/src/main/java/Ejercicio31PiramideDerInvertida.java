@@ -1,4 +1,4 @@
-public class Ejercicio31PiramideIzqInvertida {
+public class Ejercicio31PiramideDerInvertida {
     public static void main(String[] args) {
 
        int altura = 5;
