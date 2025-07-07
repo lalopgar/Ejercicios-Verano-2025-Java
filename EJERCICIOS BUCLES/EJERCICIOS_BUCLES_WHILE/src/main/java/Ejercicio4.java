@@ -10,6 +10,8 @@ public class Ejercicio4 {
         int numSecreto = 5;
         int num = 0;
 
+        while(num != 5){
 
+        }
     }
 }
