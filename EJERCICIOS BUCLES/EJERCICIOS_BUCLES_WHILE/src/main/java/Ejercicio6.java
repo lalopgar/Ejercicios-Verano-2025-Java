@@ -19,6 +19,31 @@ public class Ejercicio6 {
             System.out.print("Introduce un num: ");
             num = teclado.nextInt();
 
+            switch (num){
+                case 1:
+                    System.out.println("HOLA");
+                    System.out.println("---------");
+                    break;
+                case 2:
+                    System.out.println("BUENOS DÍAS");
+                    System.out.println("---------");
+                    break;
+                case 3:
+                    System.out.println("BUENAS TARDES");
+                    System.out.println("---------");
+                    break;
+                case 4:
+                    System.out.println("BUENAS NOCHES");
+                    System.out.println("---------");
+                    break;
+                case 5:
+                    System.out.println("PROGRAMA FINALIZADO");
+                    break;
+                default:
+                    System.out.println("NÚMERO NO VALIDO. INSERTA NUM DE NUEVO: ");
+                    System.out.println("---------");
+            }
         }
+        teclado.close();
     }
 }
