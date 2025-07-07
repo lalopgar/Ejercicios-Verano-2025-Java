@@ -13,7 +13,7 @@ public class Ejercicio2 {
         while(num != 0){
             System.out.println("Introduce un número: ");
             num = teclado.nextInt();
-
+            acumulador = acumulador + num;
         }
     }
 }
