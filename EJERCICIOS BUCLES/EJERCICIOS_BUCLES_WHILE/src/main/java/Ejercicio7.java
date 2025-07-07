@@ -17,6 +17,9 @@ public class Ejercicio7 {
         int negativo = 0; //va a contar cuántos números negativos (menores que 0) se introducen
         int cero = 0; //va a contar cuántas veces se introduce 0
 
+        while(num > -100 && num < 100){
 
+
+        }
     }
 }
