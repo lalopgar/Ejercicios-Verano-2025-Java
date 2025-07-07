@@ -8,5 +8,6 @@ public class Ejercicio2 {
         Scanner teclado = new Scanner(System.in);
 
         int num = 1;
+        int acumulador = 0;
     }
 }
