@@ -19,7 +19,13 @@ public class Ejercicio7 {
 
         while(num > -100 && num < 100){
 
-
+            if (num > 0){
+                positivo++; // esto es como si fuera positivo = positivo + 1;
+            }else if (num < 0){
+                negativo++;
+            }else{
+                cero++;
+            }
         }
     }
 }
