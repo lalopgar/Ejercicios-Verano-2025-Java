@@ -10,6 +10,14 @@ public class Ejercicio6 {
         int num = 0;
 
         while(num != 5){
+            System.out.println("1) Hola");
+            System.out.println("2) Buenos días");
+            System.out.println("3) Buenas tardes");
+            System.out.println("4) Buenas noches");
+            System.out.println("5) Salir");
+            System.out.println();
+            System.out.print("Introduce un num: ");
+            num = teclado.nextInt();
 
         }
     }
