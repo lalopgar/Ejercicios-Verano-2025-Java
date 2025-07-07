@@ -17,5 +17,6 @@ public class Ejercicio3 {
             acumulador = acumulador + i;
             i++;
         }
+        System.out.println("La suma de 1 hasta " + num + " es igual a: " + acumulador);
     }
 }
