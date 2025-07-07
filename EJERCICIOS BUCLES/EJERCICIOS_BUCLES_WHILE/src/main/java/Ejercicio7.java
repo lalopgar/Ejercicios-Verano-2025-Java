@@ -30,5 +30,10 @@ public class Ejercicio7 {
             System.out.println("Introduce un número fuera de ese rango para salir.");
             num = teclado.nextInt();
         }
+        System.out.println("Hay " + positivo + " números positivos.");
+        System.out.println("Hay " + negativo + " números negativos.");
+        System.out.println("Hay " + cero + " números cero.");
+
+        teclado.close();
     }
 }
