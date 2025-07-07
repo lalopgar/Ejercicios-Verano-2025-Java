@@ -12,5 +12,9 @@ public class Ejercicio3 {
 
         int i = 0;
         int acumulador = 0;
+
+        while(i <= num){
+
+        }
     }
 }
