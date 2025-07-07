@@ -14,7 +14,8 @@ public class Ejercicio3 {
         int acumulador = 0;
 
         while(i <= num){
-
+            acumulador = acumulador + i;
+            i++;
         }
     }
 }
