@@ -11,6 +11,8 @@ public class Ejercicio2 {
         int acumulador = 0;
 
         while(num != 0){
+            System.out.println("Introduce un número: ");
+            num = teclado.nextInt();
 
         }
     }
