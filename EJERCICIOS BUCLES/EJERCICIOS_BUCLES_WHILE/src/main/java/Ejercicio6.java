@@ -9,6 +9,8 @@ public class Ejercicio6 {
 
         int num = 0;
 
+        while(num != 5){
 
+        }
     }
 }
