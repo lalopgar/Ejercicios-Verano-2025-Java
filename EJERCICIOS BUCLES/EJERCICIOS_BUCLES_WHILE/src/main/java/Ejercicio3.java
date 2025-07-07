@@ -10,6 +10,7 @@ public class Ejercicio3 {
         System.out.println("Introduce un número: ");
         int num = teclado.nextInt();
 
-
+        int i = 0;
+        int acumulador = 0;
     }
 }
