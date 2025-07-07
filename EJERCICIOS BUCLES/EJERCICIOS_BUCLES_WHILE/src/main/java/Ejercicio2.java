@@ -9,5 +9,9 @@ public class Ejercicio2 {
 
         int num = 1;
         int acumulador = 0;
+
+        while(num != 0){
+
+        }
     }
 }
