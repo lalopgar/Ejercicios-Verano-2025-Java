@@ -15,5 +15,6 @@ public class Ejercicio2 {
             num = teclado.nextInt();
             acumulador = acumulador + num;
         }
+        System.out.println("Suma: " + acumulador);
     }
 }
