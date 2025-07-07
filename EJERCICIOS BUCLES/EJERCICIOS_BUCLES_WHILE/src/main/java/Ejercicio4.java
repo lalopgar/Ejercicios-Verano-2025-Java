@@ -11,6 +11,9 @@ public class Ejercicio4 {
         int num = 0;
 
         while(num != 5){
+            System.out.println("Introduce número secreto: ");
+            num = teclado.nextInt();
+
 
         }
     }
