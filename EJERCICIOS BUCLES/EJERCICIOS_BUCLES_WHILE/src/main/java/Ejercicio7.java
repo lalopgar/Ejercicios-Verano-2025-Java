@@ -13,6 +13,9 @@ public class Ejercicio7 {
         System.out.println("Introduce un número fuera de ese rango para salir.");
         int num = teclado.nextInt();
 
+        int positivo = 0; //va a contar cuántos números positivos (mayores que 0) se introducen
+        int negativo = 0; //va a contar cuántos números negativos (menores que 0) se introducen
+        int cero = 0; //va a contar cuántas veces se introduce 0
 
 
     }
