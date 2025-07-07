@@ -26,6 +26,9 @@ public class Ejercicio7 {
             }else{
                 cero++;
             }
+            System.out.println("Introduce un número entre -100 y 100. "); //Lo vuelvo a preguntar para que no se quede en bucle
+            System.out.println("Introduce un número fuera de ese rango para salir.");
+            num = teclado.nextInt();
         }
     }
 }
