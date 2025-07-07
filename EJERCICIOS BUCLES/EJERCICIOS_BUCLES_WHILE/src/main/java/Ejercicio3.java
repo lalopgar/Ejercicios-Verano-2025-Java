@@ -7,6 +7,9 @@ public class Ejercicio3 {
 
         Scanner teclado = new Scanner(System.in);
 
+        System.out.println("Introduce un número: ");
+        int num = teclado.nextInt();
+
 
     }
 }
