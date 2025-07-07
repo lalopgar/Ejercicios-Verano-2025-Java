@@ -10,6 +10,10 @@ public class Ejercicio5 {
         System.out.println("Introduce un número positivo: ");
         int num = teclado.nextInt();
 
-
+        while(num > 0){
+            System.out.println(num);
+            num--;
+        }
+        teclado.close();
     }
 }
