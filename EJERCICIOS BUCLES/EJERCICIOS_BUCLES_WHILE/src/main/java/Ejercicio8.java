@@ -14,5 +14,13 @@ public class Ejercicio8 {
 
         System.out.println("Introduce un número.Pulsa -1 para salir del programa.");
         num = teclado.nextInt();
+
+        while(num != -1){
+            acumulador = acumulador + num;
+            contador++;
+
+            System.out.println("Introduce un número.Pulsa -1 para salir del programa.");
+            num = teclado.nextInt();
+        }
     }
 }
