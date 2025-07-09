@@ -12,6 +12,12 @@ public class Ejercicio9 {
         String realPassword = "java1234";
         int contador = 0;
 
+        while(contador < 3){
+            System.out.println("Escribe una contraseña: ");
+            password = teclado.nextLine();
+            contador++;
+        }
+
 
     }
 }
