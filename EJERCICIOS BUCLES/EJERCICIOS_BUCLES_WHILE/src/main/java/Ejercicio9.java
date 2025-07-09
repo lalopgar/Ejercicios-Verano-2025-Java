@@ -16,8 +16,14 @@ public class Ejercicio9 {
             System.out.println("Escribe una contraseña: ");
             password = teclado.nextLine();
             contador++;
+
+            if (password.equalsIgnoreCase("java1234")){
+                System.out.println("Éxito.");
+                break;  //para que salir del programa si acierta la contraseña
+            }else{
+                System.out.println("Denegado.");
+            }
         }
-
-
+        teclado.close();
     }
 }
