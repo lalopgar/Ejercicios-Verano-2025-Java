@@ -12,15 +12,22 @@ public class Ejercicio8 {
         int acumulador = 0;
         int contador = 0;
 
-        System.out.println("Introduce un número.Pulsa -1 para salir del programa.");
+        System.out.println("Introduce un número.Pulsa -1 para salir del programa."); //Para que entre o no al bucle
         num = teclado.nextInt();
 
         while(num != -1){
             acumulador = acumulador + num;
             contador++;
 
-            System.out.println("Introduce un número.Pulsa -1 para salir del programa.");
+            System.out.println("Introduce un número.Pulsa -1 para salir del programa."); //Para que se repita la pregunta
             num = teclado.nextInt();
         }
+        if (contador > 0){
+            double media = acumulador/contador;
+            System.out.println("La media es: " + media);
+        }else{
+            System.out.println("Fin del programa.");
+        }
+        teclado.close();
     }
 }
