@@ -10,6 +10,12 @@ public class Ejercicio2 {
         int acumulador = 0;
         int num;
 
+        do{
+            System.out.println("Introduce un número. Pulsa 0 para salir del programa.");
+            num = teclado.nextInt();
+            acumulador = acumulador + num;
+        }while(num != 0);
 
+        System.out.println("La suma de los números introducidos es: " + acumulador);
     }
 }
