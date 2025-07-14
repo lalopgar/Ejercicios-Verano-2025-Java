@@ -9,6 +9,13 @@ public class Ejercicio3 {
 
         String contrasena = "lara1234";
 
+        do{
+            System.out.println("Escribe la contraseña: ");
+            contrasena = teclado.next();
+
+        }while(!contrasena.equals("lara1234"));
+
+        System.out.println("Acceso aceptado");
 
     }
 }
