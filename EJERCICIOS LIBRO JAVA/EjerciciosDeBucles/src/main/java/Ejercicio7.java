@@ -15,6 +15,8 @@ public class Ejercicio7 {
         int acumulador = 4;
         int i = 0;
 
+        while(i < 4){
 
+        }
     }
 }
