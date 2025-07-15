@@ -12,10 +12,15 @@ public class Ejercicio7 {
         Scanner teclado = new Scanner(System.in);
 
         int contrasena = 1234;
+        int num;
         int acumulador = 4;
         int i = 0;
 
         while(i < 4){
+            System.out.println(System.out.println("Introduce la contraseña numérica correcta. Tienes " + acumulador + " oportunidades: ");
+            num = teclado.nextInt();
+            acumulador = acumulador - 1;
+
 
         }
     }
