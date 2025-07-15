@@ -21,7 +21,12 @@ public class Ejercicio7 {
             num = teclado.nextInt();
             acumulador = acumulador - 1;
 
-
+            if (num == 1234){
+                System.out.println("La caja fuerte se ha abierto satisfactoriamente.");
+            }else{
+                System.out.println("Lo siento, esa no es la combinación.");
+            }
+            i++;
         }
     }
 }
